@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    int A,B,s;
+    scanf("%d%d",&A,&B);
+    s = A * B;
+    printf("PROD = %d\n",s);
+
+    return 0;
+}
