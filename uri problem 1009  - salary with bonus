@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char a;
+   double day, salary, total;
+    scanf("%s%lf%lf",&a,&day,&salary);
+    total = day + salary * .15;
+    printf("TOTAL = R$ %0.2lf\n",total);
+
+    return 0;
+}
